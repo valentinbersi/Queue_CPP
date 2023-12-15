@@ -32,7 +32,7 @@ public:
 
     // Pre: -
     // Post: adds the element at the end of the queue.
-    void add(T element);
+    void add(T new_element);
 
     // Pre: the queue can´t be empty.
     // Post: removes the first element and returns it.
@@ -47,7 +47,7 @@ public:
     [[nodiscard]] T last();
 
     // Pre: -
-    // Post: returns the number of elements of the queue.
+    // Post: returns the number of elements in the queue.
     [[nodiscard]] size_t size();
 
     // Pre: -
